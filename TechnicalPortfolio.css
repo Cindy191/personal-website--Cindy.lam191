@@ -1,0 +1,132 @@
+#base{
+    background-image: url("suitsBackground.jpg");
+    background-repeat: repeat;
+}
+#title{
+    position: absolute;
+    top: 50px;
+    left: 650px;
+    color: black;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+}
+.white-box {
+    width: 1380px;
+    height: 2600px;
+    border-radius: 10px;
+    background-color:white;
+    position: absolute;
+    left: 35px;
+    top: 30px;
+}
+.same-page-links a{
+    position: relative;
+    top: 100px;
+    left: 450px;
+    margin-right: 30px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    /* cursor: pointer; */
+}
+
+/*PROJECT 1   */
+    /* .Project-1{
+        border:1px solid black; //ADD A BORDER AROUND EACH PROJECT
+    } */
+.Project-1 img{
+    position: absolute;
+    width: 600px;
+    height: auto;
+    top: 200px;
+    left: 100px;
+    border:1px solid black;
+}
+#left{
+    position: relative;
+    top: 530px;
+    left: 92px;
+}
+#right{
+    position: relative;
+    top: 530px;
+    left: 643px;
+}
+#project-1-description{
+    position: relative;
+    top: 200px;
+    left: 800px; 
+    width: 500px;
+}
+
+
+
+/*    PROJECT 2     */
+.Project-2 img{
+    position: absolute;
+    width: 600px;
+    height: auto;
+    top: 700px;
+    left: 100px;
+}
+#left-2{
+    position: relative;
+    top: 930px;
+    left: 92px;
+}
+#right-2{
+    position: relative;
+    top: 930px;
+    left: 643px;
+}
+#project-2-description{
+    position: relative;
+    top: 600px;
+    left: 800px; 
+    width: 500px;
+}
+
+/*  Project 3 - Wordle  */
+#wordle-video{
+    position: absolute;
+    top: 1200px;
+    left: 100px;
+}
+#project-3-description{
+    position: relative;
+    top: 970px;
+    left: 800px; 
+    width: 500px;
+}
+
+
+/*    PROJECT 4     */
+.Project-4 img{
+    position: absolute;
+    width: 600px;
+    height: auto;
+    top: 1700px;
+    left: 100px;
+}
+#project-4-description{
+    position: relative;
+    top: 1400px;
+    left: 800px; 
+    width: 500px;
+}
+
+
+/* PROJECT 5 */
+.Project-5 img{
+    position: absolute;
+    width: 600px;
+    height: auto;
+    top: 2200px;
+    left: 100px;
+    cursor: pointer;
+}
+#project-5-description{
+    position: relative;
+    top: 1800px;
+    left: 800px; 
+    width: 500px;
+}

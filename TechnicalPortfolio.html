@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="TechnicalPortfolio.css">
+        <script type="text/javascript" src="sliding.js"></script>
+    </head>
+    <body id="base">
+        <div class="white-box"></div>  
+        <h3 id="title">Technical Projects</h3>
+        <div class="same-page-links">
+            <a href="index.html">Home</a>
+            <a href="TechnicalPortfolio.html">Projects</a>
+            <a href="Qualifications.html">Qualifications</a>
+            <a href="ServicePage.html">Service</a>
+            <a href="Ai-generated.html">Contact</a>          
+        </div>
+        
+        <!--project 1: Art Gallery-->
+        <div class="Project-1">
+            <img class="Project-1-pic" src="Art-Gallery-Pics/5.png" />
+            <img class="Project-1-pic" src="Art-Gallery-Pics/4.png" />
+            <img class="Project-1-pic" src="Art-Gallery-Pics/3.png" />
+            <img class="Project-1-pic" src="Art-Gallery-Pics/2.png" />
+            <img class="Project-1-pic" src="Art-Gallery-Pics/1.png" />
+
+            <button id="left" onclick="changeIndex(-1, 1)">&#10094;</button>
+            <button id="right" onclick="changeIndex(+1, 1)">&#10095;</button>
+            <p id="project-1-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ducimus delectus, ab, molestias accusantium illum temporibus deleniti iusto odit fugiat molestiae dolore sed? Omnis qui accusamus obcaecati aspernatur, totam earum?</p>
+        </div>
+
+        <!--project 2: Note-App-->
+        <div class="Project-2">
+            <img class="Project-2-pic" src="Note-App-Pics/1.png" />
+            <img class="Project-2-pic" src="Note-App-Pics/2.png" />
+            <img class="Project-2-pic" src="Note-App-Pics/3.png" />
+            <img class="Project-2-pic" src="Note-App-Pics/4.png" />
+            <img class="Project-2-pic" src="Note-App-Pics/5.png" />
+            <button id="left-2" onclick="changeIndex(-1, 2)">&#10094;</button>
+            <button id="right-2" onclick="changeIndex(+1, 2)">&#10095;</button>
+            <p id="project-2-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ducimus delectus, ab, molestias accusantium illum temporibus deleniti iusto odit fugiat molestiae dolore sed? Omnis qui accusamus obcaecati aspernatur, totam earum?</p>
+        </div>
+
+        <!--project 3: Wordle-->
+        <div class="Project-3">
+            <video id="wordle-video" width="600" controls>
+                <source src="Wordle.mp4" type="video/mp4">
+            </video>
+            <p id="project-3-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ducimus delectus, ab, molestias accusantium illum temporibus deleniti iusto odit fugiat molestiae dolore sed? Omnis qui accusamus obcaecati aspernatur, totam earum?</p>
+        </div>
+
+         <!--project 4: Password Generator-->
+         <div class="Project-4">
+            <img id="Project-4-pic" src="PasswordGenPics.png" />
+            <p id="project-4-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ducimus delectus, ab, molestias accusantium illum temporibus deleniti iusto odit fugiat molestiae dolore sed? Omnis qui accusamus obcaecati aspernatur, totam earum?</p>
+        </div>
+
+        <!--project 4: DollarSim -->
+        <div class="Project-5">
+            <a href="https://www.loom.com/share/563307c6d5544fa796a3b7851c05efdf?sid=f666f299-5d77-4270-a32b-7bde17d597a5"><img id="Project-5-pic" src= "DollarSimPics/front.png" /></a>
+            <p id="project-5-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ducimus delectus, ab, molestias accusantium illum temporibus deleniti iusto odit fugiat molestiae dolore sed? Omnis qui accusamus obcaecati aspernatur, totam earum?</p>
+        </div>
+
+    </body>
+</html>
